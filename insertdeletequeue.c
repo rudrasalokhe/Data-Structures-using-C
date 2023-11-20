@@ -1,3 +1,4 @@
+// wap to insert and delete in linear queue
 #include<stdio.h>
 #include<conio.h>
 #define MAX 5
@@ -41,7 +42,7 @@ void insert(){
   queue[rear]=item;
 }
 }
-void display(){
+void delete(){
   if( front == -1 || front > rear ){
     printf("Queue is empty");
   }
@@ -60,3 +61,4 @@ void display() {
     for (i = front; i <= rear; i++) printf("%d ", queue[i]);
   }
 }
+
