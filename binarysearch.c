@@ -51,7 +51,6 @@ void main() {
     int a[50], n, x;
     clrscr();
 
-    printf("HAWAIZA SIDDIQUI 19431\n");
 
     printf("Enter the number of elements that you want to enter\n");
     scanf("%d", &n);
