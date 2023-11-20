@@ -12,7 +12,6 @@ void main()
 int num,i,n;
 node *start, *ptr , *temp;
 clrscr();
-printf("\nHAWAIZA SIDDIQUI 19431\n");
 printf("\nEnter number of nodes : ");
 scanf("%d",&n);
 start=(node*) malloc(sizeof(node)); // get the first node address in start
